@@ -205,14 +205,17 @@ print('area :%6.2f , volume :%6.2f' % (area,volume))
 #-----------------------------------------
 import random
 a = 0
-a = eval()
 for a in range(1,101):
     randnum = random.randint(1,101)
     print('%d' % randnum)
-if a % 3 == 0:
-    print('%d = 是3的倍數' % a)
+if  a % 3 == 0 or a % 5 == 0:
+    print('%d 不是 3 或 5 的倍數' % a)
 elif a % 5 == 0:
-    print('%d = 是5的倍數' % a)
+    print('%d 是5的倍數' % a)
+elif a % 3 == 0:
+    print('%d 是3的倍數' % a)
+elif a % 3 != 0 or a % 5 != 0:
+    print('%d 不是 3 或 5 的倍數' % a)
 
     
     
