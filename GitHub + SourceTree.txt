@@ -1,1 +1,6 @@
 https://hackmd.io/@09oU3M6LTU-7M6MkSqRj1A/Bymbf3y2?type=view
+
+先下載sourtree
+如不想註冊,可使用文鍵操作
+unstaged files ==add
+commit ==commit ==alt+shift+c(備註下方可註解)
